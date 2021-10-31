@@ -43,9 +43,6 @@ body {
     margin-top: 16px;
   }
   
-  /* makes the dependency strict on first level*/
-  /*On 11/4/20 found on https://flaviocopes.com/css-selectors */
-  /* since I didn't know how to select certain elements*/
   .searchHistoryContainer > button {
     width: 100%;
     background-color: transparent;
@@ -53,9 +50,6 @@ body {
     border-bottom: 1px solid gray;
   }
   
-  /* represents the last element among a group of sibling elements*/
-  /* On 11/4/20 found on https://developer.mozilla.org/en-US/docs/Web/CSS/:last-child*/
-  /* since I didn't know how to select certain elements */
   .searchHistoryContainer > button:last-child {
     border: none;
   }
@@ -82,7 +76,7 @@ body {
   .forecastCard {
     flex: 1;
     padding: 8px;
-    background-color: rgb(73, 133, 237);
+    background-color: rgb(30, 58, 107);
     color: white;
     border-radius: 4px;
     margin: 0 8px;
